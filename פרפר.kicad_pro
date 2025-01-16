@@ -103,7 +103,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -587,7 +587,11 @@
     "net_colors": null,
     "netclass_assignments": {
       "+BATT": "power",
+      "Earth_Clean": "power",
+      "GND": "power",
       "Net-(FB1-Pad1)": "power",
+      "Net-(J5-Pin_1)": "power",
+      "Net-(J5-Pin_2)": "power",
       "PRI_LO": "power",
       "VBUS": "power",
       "VCC": "power"
