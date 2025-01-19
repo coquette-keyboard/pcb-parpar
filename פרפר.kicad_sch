@@ -7783,7 +7783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_4x0603_Concave"
+		(property "Value" "1.2k *4"
 			(at 231.14 114.2999 0)
 			(effects
 				(font
@@ -11055,7 +11055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_4x0603_Concave"
+		(property "Value" "1.2k*4"
 			(at 231.14 143.5099 0)
 			(effects
 				(font
@@ -11092,28 +11092,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c8e122e-865c-49e7-a0b3-0529db411800")
+			(uuid "5c8e122e-865c-49e7-a0b3-0529db411801")
 		)
 		(pin "4"
-			(uuid "97d13706-6018-474f-ba88-bb4189f570fb")
+			(uuid "97d13706-6018-474f-ba88-bb4189f570fc")
 		)
 		(pin "3"
-			(uuid "0f704625-13c3-435c-96d1-8fd211bf5db6")
+			(uuid "0f704625-13c3-435c-96d1-8fd211bf5db7")
 		)
 		(pin "2"
-			(uuid "9676e91e-88f9-4540-a8ae-efc4993f8af6")
+			(uuid "9676e91e-88f9-4540-a8ae-efc4993f8af7")
 		)
 		(pin "7"
-			(uuid "2f47b800-4109-45b8-834e-7c0e0e766212")
+			(uuid "2f47b800-4109-45b8-834e-7c0e0e766213")
 		)
 		(pin "5"
-			(uuid "7142b5c3-fcc2-4091-ba26-0700ef105f1a")
+			(uuid "7142b5c3-fcc2-4091-ba26-0700ef105f1b")
 		)
 		(pin "6"
-			(uuid "4b939dab-9d5d-4184-bfe1-3d61d7c46864")
+			(uuid "4b939dab-9d5d-4184-bfe1-3d61d7c46865")
 		)
 		(pin "8"
-			(uuid "46916799-e14c-422e-a101-f0065373baff")
+			(uuid "46916799-e14c-422e-a101-f0065373bb00")
 		)
 		(instances
 			(project ""
