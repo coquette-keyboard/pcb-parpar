@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "coquette parpar switch matrix")
-		(date "2025-01-04")
+		(date "2025-01-19")
 		(rev "2.0")
 	)
 	(lib_symbols
@@ -9480,10 +9480,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "316b703d-7311-4d3c-baf3-88de00f09c79")
+			(uuid "316b703d-7311-4d3c-baf3-88de00f09c7a")
 		)
 		(pin "2"
-			(uuid "9c6b36d8-1a99-4226-9900-42c09092ebfc")
+			(uuid "9c6b36d8-1a99-4226-9900-42c09092ebfd")
 		)
 		(instances
 			(project ""
