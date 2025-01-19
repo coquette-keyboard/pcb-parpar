@@ -1381,7 +1381,7 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_3_Open"
+		(symbol "Jumper:SolderJumper_3_Bridged12"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim yes)
@@ -1395,7 +1395,7 @@
 					)
 				)
 			)
-			(property "Value" "SolderJumper_3_Open"
+			(property "Value" "SolderJumper_3_Bridged12"
 				(at 0 2.794 0)
 				(effects
 					(font
@@ -1421,7 +1421,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Solder Jumper, 3-pole, open"
+			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1439,7 +1439,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
+			(property "ki_fp_filters" "SolderJumper*Bridged12*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1448,7 +1448,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_3_Open_0_1"
+			(symbol "SolderJumper_3_Bridged12_0_1"
+				(rectangle
+					(start -1.016 0.508)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(arc
 					(start -1.016 1.016)
 					(mid -2.0276 0)
@@ -1569,7 +1580,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_3_Open_1_1"
+			(symbol "SolderJumper_3_Bridged12_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3647,6 +3658,18 @@
 		)
 		(uuid e6569bc4-29c2-4a3d-9a35-9ecf9abd287a)
 	)
+	(rectangle
+		(start 215.9 72.39)
+		(end 257.81 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e85e1b5c-26b6-4402-b1dd-335c972c686c)
+	)
 	(text "add-on port"
 		(exclude_from_sim no)
 		(at 134.874 133.35 0)
@@ -3656,6 +3679,16 @@
 			)
 		)
 		(uuid "072895e4-874b-48b0-9117-2a18ce4c6577")
+	)
+	(text "rgb out"
+		(exclude_from_sim no)
+		(at 219.202 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0850a3e8-5e19-40d2-9492-adaf13ac49e0")
 	)
 	(text "input from mcu"
 		(exclude_from_sim no)
@@ -3697,9 +3730,9 @@
 		)
 		(uuid "85ef505a-3ccb-421c-9db6-3f1144a4a35d")
 	)
-	(text "led input"
+	(text "rgb in"
 		(exclude_from_sim no)
-		(at 82.296 20.828 0)
+		(at 76.708 20.828 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3904,6 +3937,28 @@
 		(uuid "35d3d299-6501-4725-9fab-1be003584da9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.1997 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "led_out"
+		(shape input)
+		(at 227.33 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "374c31b9-0bc7-4f79-b2fe-74477fa3db6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.1315 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,6 +5545,72 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 227.33 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12cb9adb-4d92-40b8-86a7-2445c2ef492b")
+		(property "Reference" "#PWR0133"
+			(at 227.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.758 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 227.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f3b8bfc-87f8-40e4-b13a-5b2c9dc95c2d")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 102.87 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5693,6 +5814,73 @@
 			(project ""
 				(path "/88abd3ac-3560-486a-811e-4281250949a6"
 					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 232.41 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2223e255-85b3-4912-ab74-110f713be2eb")
+		(property "Reference" "#PWR0134"
+			(at 232.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 232.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29604e98-b8fb-4c14-ab04-c2e004e9887b")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6"
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -6313,7 +6501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_MountingPin"
+		(property "Value" "JST_SH_BM03B-SRSS-TB"
 			(at 101.6 40.9955 0)
 			(effects
 				(font
@@ -6564,6 +6752,72 @@
 			(project "פרפר"
 				(path "/88abd3ac-3560-486a-811e-4281250949a6"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:+5V")
+		(at 227.33 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "530848bb-23fe-48f3-b3b3-839a9336760f")
+		(property "Reference" "#PWR0132"
+			(at 231.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 224.028 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db36d1ca-2356-43c9-8e1f-b2c58c178648")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -7725,7 +7979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x22_Shielded"
+		(property "Value" "Hirose_FH12-22S-0.5SH"
 			(at 48.26 55.8799 0)
 			(effects
 				(font
@@ -8845,7 +9099,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 142.24 149.86 180)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -8862,7 +9116,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_3_Open"
+		(property "Value" "power select"
 			(at 142.24 156.21 0)
 			(effects
 				(font
@@ -8870,7 +9124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
 			(at 142.24 149.86 0)
 			(effects
 				(font
@@ -8888,7 +9142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 3-pole, open"
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
 			(at 142.24 149.86 0)
 			(effects
 				(font
@@ -9064,7 +9318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_MountingPin"
+		(property "Value" "JST_SUR_SM02B-SURS-TF"
 			(at 149.86 171.8055 0)
 			(effects
 				(font
@@ -9137,7 +9391,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04_MountingPin"
+		(property "Value" "JST_SH_SM04B-SRSS-TB"
 			(at 189.23 143.8655 0)
 			(effects
 				(font
@@ -9477,7 +9731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 166.37 147.32 180)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -9494,7 +9748,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_3_Open"
+		(property "Value" "data select"
 			(at 166.37 153.67 0)
 			(effects
 				(font
@@ -9502,7 +9756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
 			(at 166.37 147.32 0)
 			(effects
 				(font
@@ -9520,7 +9774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 3-pole, open"
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
 			(at 166.37 147.32 0)
 			(effects
 				(font
@@ -9609,6 +9863,82 @@
 			(project "פרפר"
 				(path "/88abd3ac-3560-486a-811e-4281250949a6"
 					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 232.41 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc80cbee-2c42-4320-baf5-082f24dbf839")
+		(property "Reference" "J7"
+			(at 234.95 79.0955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_SH_BM03B-SRSS-TB"
+			(at 234.95 81.6355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44a75b51-c58f-4355-ae28-4a3744ed5771")
+		)
+		(pin "3"
+			(uuid "c5373c32-5d22-4b14-a933-943cc91f9e6e")
+		)
+		(pin "2"
+			(uuid "636e2c29-3ea8-4ffc-9856-a454879911ba")
+		)
+		(pin "MP"
+			(uuid "d72af87b-8446-4bae-a809-3de211e444d2")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6"
+					(reference "J7")
 					(unit 1)
 				)
 			)

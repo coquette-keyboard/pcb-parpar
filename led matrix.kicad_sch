@@ -4381,7 +4381,7 @@
 		(uuid 7177c316-b097-43cc-8650-bf9bcdbd88de)
 	)
 	(rectangle
-		(start 172.72 78.74)
+		(start 173.355 72.39)
 		(end 284.48 160.02)
 		(stroke
 			(width 0)
@@ -4426,9 +4426,9 @@
 		)
 		(uuid "3feaaf19-4780-4cf6-9d03-51d5d948c381")
 	)
-	(text "led data"
+	(text "rgb data"
 		(exclude_from_sim no)
-		(at 218.948 16.51 0)
+		(at 214.884 16.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4436,9 +4436,9 @@
 		)
 		(uuid "7ccdae6e-6e85-486f-a38b-fe7553c8ed2d")
 	)
-	(text "led power input"
+	(text "rgb power in"
 		(exclude_from_sim no)
-		(at 181.61 16.51 0)
+		(at 179.832 16.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10560,7 +10560,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_3_Bridged12"
+		(property "Value" "data select"
 			(at 228.6 24.13 0)
 			(effects
 				(font

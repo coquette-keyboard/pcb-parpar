@@ -13061,7 +13061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04_MountingPin"
+		(property "Value" "JST_SUR_SM04B-SURS-TF"
 			(at 153.67 154.0255 0)
 			(effects
 				(font
@@ -13220,7 +13220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04_MountingPin"
+		(property "Value" "JST_SUR_SM04B-SURS-TF"
 			(at 153.67 133.7055 0)
 			(effects
 				(font
