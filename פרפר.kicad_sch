@@ -3980,6 +3980,18 @@
 		(uuid 3010523a-3cb2-4d0d-a9d0-a1586fb13ca8)
 	)
 	(rectangle
+		(start 215.9 98.425)
+		(end 251.46 160.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 37d44ff5-6f0a-452a-9c87-3da0d30a6075)
+	)
+	(rectangle
 		(start 26.67 97.79)
 		(end 71.12 128.27)
 		(stroke
@@ -4098,6 +4110,16 @@
 			)
 		)
 		(uuid "85ef505a-3ccb-421c-9db6-3f1144a4a35d")
+	)
+	(text "row series resistors"
+		(exclude_from_sim no)
+		(at 225.298 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9baaa20d-9073-4eab-b2b3-78b00d0a85a0")
 	)
 	(text "rgb in"
 		(exclude_from_sim no)
@@ -4493,7 +4515,7 @@
 	)
 	(global_label "row_4"
 		(shape input)
-		(at 237.49 140.97 90)
+		(at 228.6 137.16 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4503,7 +4525,7 @@
 		)
 		(uuid "4b63cf84-444a-4f8e-ad6b-9147bdbe7ec9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 133.6103 90)
+			(at 228.6 129.8003 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,7 +4581,7 @@
 	)
 	(global_label "row_5"
 		(shape input)
-		(at 234.95 140.97 90)
+		(at 226.06 137.16 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4569,7 +4591,7 @@
 		)
 		(uuid "588a03fe-47f2-4781-ab84-eb8321b0e833")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.95 133.6103 90)
+			(at 226.06 129.8003 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +4669,7 @@
 	)
 	(global_label "row_6"
 		(shape input)
-		(at 232.41 140.97 90)
+		(at 223.52 137.16 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4657,7 +4679,7 @@
 		)
 		(uuid "63675e7c-d8a7-4c4c-9115-89e813806648")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 133.6103 90)
+			(at 223.52 129.8003 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +4735,7 @@
 	)
 	(global_label "row_5_in"
 		(shape input)
-		(at 234.95 151.13 270)
+		(at 226.06 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4723,7 +4745,7 @@
 		)
 		(uuid "85695eed-0100-4a35-96ec-9b03c383226e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.95 161.2479 90)
+			(at 226.06 157.4379 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4845,7 @@
 	)
 	(global_label "row_1_in"
 		(shape input)
-		(at 234.95 121.92 270)
+		(at 226.06 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4833,7 +4855,7 @@
 		)
 		(uuid "92ed42a4-7a51-4af9-8b61-c00346b0969f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.95 132.0379 90)
+			(at 226.06 128.2279 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +4889,7 @@
 	)
 	(global_label "row_0"
 		(shape input)
-		(at 237.49 111.76 90)
+		(at 228.6 107.95 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4877,7 +4899,7 @@
 		)
 		(uuid "95d419d9-1927-476f-97d2-f28a26fda39d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 104.4003 90)
+			(at 228.6 100.5903 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +4999,7 @@
 	)
 	(global_label "row_3_in"
 		(shape input)
-		(at 229.87 121.92 270)
+		(at 220.98 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4987,7 +5009,7 @@
 		)
 		(uuid "b00af1df-b011-4f92-b3d2-9986bc43e4a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 132.0379 90)
+			(at 220.98 128.2279 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5065,7 +5087,7 @@
 	)
 	(global_label "row_1"
 		(shape input)
-		(at 234.95 111.76 90)
+		(at 226.06 107.95 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5075,7 +5097,7 @@
 		)
 		(uuid "bccd10c4-222b-4641-8d0f-96bcba636993")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.95 104.4003 90)
+			(at 226.06 100.5903 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5087,7 +5109,7 @@
 	)
 	(global_label "row_2_in"
 		(shape input)
-		(at 232.41 121.92 270)
+		(at 223.52 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5097,7 +5119,7 @@
 		)
 		(uuid "c1103901-84eb-4798-a440-672ef46299dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 132.0379 90)
+			(at 223.52 128.2279 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5131,7 @@
 	)
 	(global_label "row_0_in"
 		(shape input)
-		(at 237.49 121.92 270)
+		(at 228.6 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5119,7 +5141,7 @@
 		)
 		(uuid "c25c852e-f909-4ffb-bc2d-ff99e6ddf436")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 132.0379 90)
+			(at 228.6 128.2279 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5153,7 @@
 	)
 	(global_label "row_4_in"
 		(shape input)
-		(at 237.49 151.13 270)
+		(at 228.6 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5141,7 +5163,7 @@
 		)
 		(uuid "c586668d-a0db-4c71-a305-f9cc5d9d8338")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 161.2479 90)
+			(at 228.6 157.4379 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,7 +5197,7 @@
 	)
 	(global_label "row_3"
 		(shape input)
-		(at 229.87 111.76 90)
+		(at 220.98 107.95 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5185,7 +5207,7 @@
 		)
 		(uuid "d9b0f28b-fc5a-4061-a2da-1e1cfd3d7eca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 104.4003 90)
+			(at 220.98 100.5903 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +5241,7 @@
 	)
 	(global_label "row_7_in"
 		(shape input)
-		(at 229.87 151.13 270)
+		(at 220.98 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5229,7 +5251,7 @@
 		)
 		(uuid "dc0b8066-f9f8-428c-8f73-0bbd4b3c6e68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 161.2479 90)
+			(at 220.98 157.4379 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +5285,7 @@
 	)
 	(global_label "row_2"
 		(shape input)
-		(at 232.41 111.76 90)
+		(at 223.52 107.95 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5273,7 +5295,7 @@
 		)
 		(uuid "df8504f3-f595-496d-950b-ed87d2d1c495")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 104.4003 90)
+			(at 223.52 100.5903 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5439,7 @@
 	)
 	(global_label "row_7"
 		(shape input)
-		(at 229.87 140.97 90)
+		(at 220.98 137.16 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5427,7 +5449,7 @@
 		)
 		(uuid "ef39a917-3087-448f-8ed8-c95aeecafb7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 133.6103 90)
+			(at 220.98 129.8003 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5461,7 +5483,7 @@
 	)
 	(global_label "row_6_in"
 		(shape input)
-		(at 232.41 151.13 270)
+		(at 223.52 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5471,7 +5493,7 @@
 		)
 		(uuid "f4f429ab-047c-4b4a-bee1-9766d07e306f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 161.2479 90)
+			(at 223.52 157.4379 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7744,7 +7766,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_4x0603_Concave")
-		(at 234.95 116.84 0)
+		(at 226.06 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7753,7 +7775,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b3098cf-cf49-42a5-b96b-0415a423a4d9")
 		(property "Reference" "RN1"
-			(at 240.03 115.5699 0)
+			(at 231.14 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,7 +7784,7 @@
 			)
 		)
 		(property "Value" "R_4x0603_Concave"
-			(at 240.03 118.1099 0)
+			(at 231.14 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,7 +7793,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_Array_Concave_4x0603"
-			(at 234.95 129.54 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7780,7 +7802,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 116.84 0)
+			(at 226.06 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7789,7 +7811,7 @@
 			)
 		)
 		(property "Description" "4x0603 SMD Resistor Network, Isolated, European Symbol, Alternate KiCad Library"
-			(at 234.95 116.84 0)
+			(at 226.06 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11016,7 +11038,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_4x0603_Concave")
-		(at 234.95 146.05 0)
+		(at 226.06 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11025,7 +11047,7 @@
 		(fields_autoplaced yes)
 		(uuid "de62304f-d830-4642-bfcd-9206ebd71d90")
 		(property "Reference" "RN2"
-			(at 240.03 144.7799 0)
+			(at 231.14 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11034,7 +11056,7 @@
 			)
 		)
 		(property "Value" "R_4x0603_Concave"
-			(at 240.03 147.3199 0)
+			(at 231.14 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11043,7 +11065,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_Array_Concave_4x0603"
-			(at 234.95 158.75 0)
+			(at 226.06 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11052,7 +11074,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 146.05 0)
+			(at 226.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11061,7 +11083,7 @@
 			)
 		)
 		(property "Description" "4x0603 SMD Resistor Network, Isolated, European Symbol, Alternate KiCad Library"
-			(at 234.95 146.05 0)
+			(at 226.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
