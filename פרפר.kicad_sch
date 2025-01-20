@@ -7783,7 +7783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.2k *4"
+		(property "Value" "1.2k*4"
 			(at 231.14 114.2999 0)
 			(effects
 				(font
