@@ -955,6 +955,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push_Shielded"
 			(pin_names
 				(offset 1.016) hide)
@@ -1687,6 +1832,12 @@
 		)
 	)
 	(junction
+		(at 85.09 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "077d1432-a75a-4db5-b194-5c8992454441")
+	)
+	(junction
 		(at 52.07 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1759,12 +1910,6 @@
 		(uuid "50cf8237-a89d-4bce-8651-193e2c8147f3")
 	)
 	(junction
-		(at 85.09 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50ee0716-d77a-47e3-94ff-d97cb30a426b")
-	)
-	(junction
 		(at 101.6 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1819,12 +1964,6 @@
 		(uuid "8616765f-4e6b-407a-8078-db3f23bc13dc")
 	)
 	(junction
-		(at 85.09 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "908e85ae-ee90-44fd-83e1-71a16abfe1c8")
-	)
-	(junction
 		(at 250.19 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1865,6 +2004,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4deb5df-9f0b-4d1d-b63d-fd6840224219")
+	)
+	(junction
+		(at 85.09 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c590b30f-3af2-4deb-b639-690f37a5f2b8")
 	)
 	(junction
 		(at 205.74 151.13)
@@ -2057,16 +2202,6 @@
 			(type default)
 		)
 		(uuid "2e6e6900-6771-451e-91e1-537cb4bb7b68")
-	)
-	(wire
-		(pts
-			(xy 85.09 21.59) (xy 101.6 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2edaf251-55d9-4fea-8080-381b06b6f126")
 	)
 	(wire
 		(pts
@@ -2330,6 +2465,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 21.59) (xy 101.6 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d567f33-c066-4fb1-97bc-ddd7e5b1fbf2")
+	)
+	(wire
+		(pts
 			(xy 250.19 151.13) (xy 250.19 158.75)
 		)
 		(stroke
@@ -2400,16 +2545,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 154.94) (xy 101.6 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b65f0940-b830-4f26-945f-50842467287e")
-	)
-	(wire
-		(pts
 			(xy 27.94 154.94) (xy 35.56 154.94)
 		)
 		(stroke
@@ -2447,6 +2582,16 @@
 			(type default)
 		)
 		(uuid "c94d687e-2973-4ed6-aa99-8ae229a96bb6")
+	)
+	(wire
+		(pts
+			(xy 85.09 154.94) (xy 101.6 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5406a8-d9c8-4187-8a97-198053f9838f")
 	)
 	(wire
 		(pts
@@ -7655,72 +7800,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 88.9 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "323e4e7d-9bc7-47ba-adf1-c615146f5d04")
-		(property "Reference" "#PWR0101"
-			(at 88.9 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 164.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 88.9 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "429f3237-4d5a-4f8f-9d6a-e168a6baf1c9")
-		)
-		(instances
-			(project "פרפר"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_Shielded")
 		(at 35.56 160.02 270)
 		(unit 1)
@@ -9011,7 +9090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
+		(lib_id "Switch:SW_Push")
 		(at 68.58 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9038,7 +9117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3100P"
+		(property "Footprint" "coquette_footprints:SMD4_SW_EVQP7J_PAN"
 			(at 73.66 160.02 0)
 			(effects
 				(font
@@ -9056,7 +9135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 68.58 160.02 0)
 			(effects
 				(font
@@ -9070,9 +9149,6 @@
 		)
 		(pin "2"
 			(uuid "d4085445-2e7e-475c-9dc6-971ea27d9e61")
-		)
-		(pin "SH"
-			(uuid "100d079e-2c54-45bb-bfd6-1b628c6e8f74")
 		)
 		(instances
 			(project "פרפר"
@@ -9635,72 +9711,6 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 64.77 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66cc8d99-1aa9-4998-b7f6-1911f132e4e0")
-		(property "Reference" "#PWR0100"
-			(at 64.77 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 164.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 64.77 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d973907c-92f6-43ff-b45d-f1d912823037")
-		)
-		(instances
-			(project "פרפר"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
 		(at 31.75 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9977,72 +9987,6 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 64.77 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6cd3e7be-1a05-4c16-9a28-0099b616b5ef")
-		(property "Reference" "#PWR0105"
-			(at 64.77 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 64.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c5d3371-2d2a-4e1d-80ec-4e013396e78e")
-		)
-		(instances
-			(project "פרפר"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
 		(at 97.79 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10190,8 +10134,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 85.09 26.67 90)
+		(lib_id "Switch:SW_Push")
+		(at 85.09 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10199,7 +10143,7 @@
 		(dnp no)
 		(uuid "700c544c-1c43-4943-9b3c-c1e6485f24b2")
 		(property "Reference" "SW46"
-			(at 93.726 25.4 90)
+			(at 89.154 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,7 +10152,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 96.52 27.94 90)
+			(at 89.154 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,8 +10160,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3100P"
-			(at 80.01 26.67 0)
+		(property "Footprint" "coquette_footprints:SMD4_SW_EVQP7J_PAN"
+			(at 90.17 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +10170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 26.67 0)
+			(at 90.17 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10234,7 +10178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 85.09 26.67 0)
 			(effects
 				(font
@@ -10248,9 +10192,6 @@
 		)
 		(pin "2"
 			(uuid "85cdfdac-eaf4-4a2f-b748-2e6a67f23e75")
-		)
-		(pin "SH"
-			(uuid "637cd8e8-2417-40f7-94de-07a241ed31df")
 		)
 		(instances
 			(project "פרפר"
@@ -10880,7 +10821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
+		(lib_id "Switch:SW_Push")
 		(at 68.58 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10907,7 +10848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3100P"
+		(property "Footprint" "coquette_footprints:SMD4_SW_EVQP7J_PAN"
 			(at 73.66 26.67 0)
 			(effects
 				(font
@@ -10925,7 +10866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 68.58 26.67 0)
 			(effects
 				(font
@@ -10939,9 +10880,6 @@
 		)
 		(pin "2"
 			(uuid "3bea1b15-dcd4-41d0-b93a-de50631b1378")
-		)
-		(pin "SH"
-			(uuid "264e551d-1d2b-46a1-a5ea-afb63447d6da")
 		)
 		(instances
 			(project "פרפר"
@@ -11826,8 +11764,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Shielded")
-		(at 85.09 160.02 90)
+		(lib_id "Switch:SW_Push")
+		(at 85.09 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11835,7 +11773,7 @@
 		(dnp no)
 		(uuid "ae2ef91c-23dc-45ed-a943-2c42c327e785")
 		(property "Reference" "SW48"
-			(at 93.726 158.75 90)
+			(at 88.9 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11844,7 +11782,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 96.266 161.29 90)
+			(at 88.9 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11852,8 +11790,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3100P"
-			(at 80.01 160.02 0)
+		(property "Footprint" "coquette_footprints:SMD4_SW_EVQP7J_PAN"
+			(at 90.17 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11862,7 +11800,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 160.02 0)
+			(at 90.17 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,7 +11808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
+		(property "Description" "Push button switch, generic, two pins"
 			(at 85.09 160.02 0)
 			(effects
 				(font
@@ -11884,9 +11822,6 @@
 		)
 		(pin "2"
 			(uuid "27b3fffc-c114-4917-9c9c-afb4ec6a9675")
-		)
-		(pin "SH"
-			(uuid "74fc9a0e-f436-4573-8da1-0bf865324337")
 		)
 		(instances
 			(project "פרפר"
@@ -12307,72 +12242,6 @@
 			(project "פרפר"
 				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
 					(reference "SW19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 88.9 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2de5e29-8520-4045-b7a7-948a7bda10ea")
-		(property "Reference" "#PWR0104"
-			(at 88.9 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 88.9 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50537d0e-4ddc-44d6-9c66-c4ac25b3a418")
-		)
-		(instances
-			(project "פרפר"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
