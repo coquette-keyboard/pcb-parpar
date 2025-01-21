@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "coquette parpar switch matrix")
-		(date "2025-01-20")
+		(date "2025-01-21")
 		(rev "2.0")
 	)
 	(lib_symbols
@@ -955,151 +955,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push_Shielded"
 			(pin_names
 				(offset 1.016) hide)
@@ -1698,6 +1553,223 @@
 				)
 			)
 		)
+		(symbol "coquette_symbols:SW_rocker"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_rocker"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Momentary Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rocker switch two-position"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_rocker_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_rocker_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 -1.27)
+					(mid 2.168 -0.898)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 2.168 0.898)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_rocker_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "Common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -6.35 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:Earth"
 			(power)
 			(pin_numbers hide)
@@ -1832,12 +1904,6 @@
 		)
 	)
 	(junction
-		(at 85.09 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "077d1432-a75a-4db5-b194-5c8992454441")
-	)
-	(junction
 		(at 52.07 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1872,12 +1938,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a667079-02bf-4178-9022-addd1c0bfc82")
-	)
-	(junction
-		(at 68.58 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d5c590e-4b93-4bfb-88ce-f60735dfba6d")
 	)
 	(junction
 		(at 101.6 59.69)
@@ -1976,12 +2036,6 @@
 		(uuid "92c3c065-4adb-41a5-a238-c2e6c2475858")
 	)
 	(junction
-		(at 68.58 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bd5c126-49a9-4492-82a8-09f56408c08b")
-	)
-	(junction
 		(at 35.56 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2004,12 +2058,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4deb5df-9f0b-4d1d-b63d-fd6840224219")
-	)
-	(junction
-		(at 85.09 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c590b30f-3af2-4deb-b639-690f37a5f2b8")
 	)
 	(junction
 		(at 205.74 151.13)
@@ -2245,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 154.94) (xy 68.58 154.94)
+			(xy 52.07 154.94) (xy 101.6 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2375,16 +2423,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 154.94) (xy 85.09 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7189a2d3-229b-456e-8553-ea99e779444c")
-	)
-	(wire
-		(pts
 			(xy 198.12 139.7) (xy 198.12 142.24)
 		)
 		(stroke
@@ -2462,16 +2500,6 @@
 			(type default)
 		)
 		(uuid "97838a14-9d9b-4ca9-b589-c528b5a69d41")
-	)
-	(wire
-		(pts
-			(xy 85.09 21.59) (xy 101.6 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d567f33-c066-4fb1-97bc-ddd7e5b1fbf2")
 	)
 	(wire
 		(pts
@@ -2585,16 +2613,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 154.94) (xy 101.6 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf5406a8-d9c8-4187-8a97-198053f9838f")
-	)
-	(wire
-		(pts
 			(xy 101.6 78.74) (xy 118.11 78.74)
 		)
 		(stroke
@@ -2665,16 +2683,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 21.59) (xy 68.58 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5f86f7d-fd24-48a4-aea6-58af11c3496b")
-	)
-	(wire
-		(pts
 			(xy 242.57 149.86) (xy 242.57 151.13)
 		)
 		(stroke
@@ -2705,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 21.59) (xy 85.09 21.59)
+			(xy 52.07 21.59) (xy 101.6 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2749,7 +2757,7 @@
 	)
 	(rectangle
 		(start 15.24 17.78)
-		(end 133.35 173.99)
+		(end 133.35 196.215)
 		(stroke
 			(width 0)
 			(type default)
@@ -3009,6 +3017,28 @@
 			)
 		)
 	)
+	(global_label "mtx_d0"
+		(shape input)
+		(at 57.15 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bfd8187-728b-4ec5-adc0-c9b215d1dadf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.4291 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "mtx_b0"
 		(shape input)
 		(at 52.07 31.75 270)
@@ -3053,28 +3083,6 @@
 			)
 		)
 	)
-	(global_label "mtx_d0"
-		(shape input)
-		(at 85.09 31.75 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "13c1801e-b75c-4f3c-a0fc-371ac6b22de0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 40.0291 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "mtx_c2"
 		(shape input)
 		(at 156.21 59.69 180)
@@ -3110,28 +3118,6 @@
 		(uuid "163e0416-17cf-4a71-81a7-3b3ba41a50d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 219.2691 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "mtx_c7"
-		(shape input)
-		(at 68.58 165.1 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "177de6ee-d573-41ff-afe2-4f97b87e3728")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.58 170.6209 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3415,7 @@
 	)
 	(global_label "mtx_c7"
 		(shape input)
-		(at 224.79 59.69 180)
+		(at 224.79 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3439,7 +3425,7 @@
 		)
 		(uuid "302cb5a5-247b-46ab-87a5-603489ce1fda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.2691 59.69 0)
+			(at 219.2691 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,6 +3787,28 @@
 			)
 		)
 	)
+	(global_label "mtx_c0"
+		(shape input)
+		(at 57.15 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54ea174a-f69f-4b43-af8f-b144e01cadcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.4291 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row_3"
 		(shape input)
 		(at 27.94 78.74 180)
@@ -3891,7 +3899,7 @@
 	)
 	(global_label "mtx_c5"
 		(shape input)
-		(at 224.79 62.23 180)
+		(at 224.79 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3901,7 +3909,7 @@
 		)
 		(uuid "5b603ab5-4095-41a2-9f5f-633e7b9e6ce6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.2691 62.23 0)
+			(at 219.2691 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,6 +4645,28 @@
 			)
 		)
 	)
+	(global_label "mtx_d7"
+		(shape input)
+		(at 106.68 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c41a157-b9c5-4f19-8185-789cab6751fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.9591 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "mtx_e7"
 		(shape input)
 		(at 101.6 165.1 270)
@@ -5077,28 +5107,6 @@
 			)
 		)
 	)
-	(global_label "mtx_d7"
-		(shape input)
-		(at 85.09 165.1 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc699f87-1ed2-4bd9-8810-888506ccd0ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 170.6209 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ec2b"
 		(shape input)
 		(at 242.57 151.13 180)
@@ -5407,6 +5415,28 @@
 			)
 		)
 	)
+	(global_label "row_7"
+		(shape input)
+		(at 96.52 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8378b04-f642-46c2-bb4f-0a019e9b8e59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.1603 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "mtx_e2"
 		(shape input)
 		(at 156.21 92.71 180)
@@ -5583,28 +5613,6 @@
 			)
 		)
 	)
-	(global_label "mtx_c0"
-		(shape input)
-		(at 68.58 31.75 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dece2570-5d0e-47be-8ea3-9b902f665ce6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.58 37.2709 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "mtx_b3"
 		(shape input)
 		(at 156.21 45.72 180)
@@ -5640,6 +5648,28 @@
 		(uuid "e7fb8ae9-7782-4e03-8a05-61fdedfc00d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 273.2261 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_c7"
+		(shape input)
+		(at 106.68 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e910225c-3c73-4b72-9a78-bc9e316cd63b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.9591 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,6 +5719,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row_0"
+		(shape input)
+		(at 46.99 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebfa04f5-6e77-4713-8521-149035c546bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.6303 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6134,7 +6186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 73.66 64.77 0)
 			(effects
 				(font
@@ -6340,7 +6392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 57.15 140.97 0)
 			(effects
 				(font
@@ -6413,7 +6465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 73.66 45.72 0)
 			(effects
 				(font
@@ -6486,7 +6538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 40.64 83.82 0)
 			(effects
 				(font
@@ -6641,7 +6693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 90.17 121.92 0)
 			(effects
 				(font
@@ -6850,7 +6902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 73.66 121.92 0)
 			(effects
 				(font
@@ -7055,7 +7107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 106.68 140.97 0)
 			(effects
 				(font
@@ -7128,7 +7180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 123.19 160.02 0)
 			(effects
 				(font
@@ -7827,7 +7879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 40.64 160.02 0)
 			(effects
 				(font
@@ -7965,7 +8017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 106.68 160.02 0)
 			(effects
 				(font
@@ -8038,7 +8090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 123.19 102.87 0)
 			(effects
 				(font
@@ -8376,7 +8428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 40.64 140.97 0)
 			(effects
 				(font
@@ -8515,7 +8567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 106.68 83.82 0)
 			(effects
 				(font
@@ -8555,6 +8607,72 @@
 			(project "פרפר"
 				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
 					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 99.06 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "429db667-bac3-47a5-ad30-02bb31dd4306")
+		(property "Reference" "#PWR0101"
+			(at 99.06 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 99.06 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a305522-4060-4b33-ac74-8a0c7ecffd54")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -8818,7 +8936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 40.64 121.92 0)
 			(effects
 				(font
@@ -8891,7 +9009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 123.19 64.77 0)
 			(effects
 				(font
@@ -8964,7 +9082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 57.15 83.82 0)
 			(effects
 				(font
@@ -9090,76 +9208,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 68.58 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52234b05-03a2-417c-a6f5-3c52f62e16d3")
-		(property "Reference" "SW47"
-			(at 72.39 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 72.39 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "coquette_footprints:SMD4_SW_EVQP7J_PAN"
-			(at 73.66 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5aba5186-ee72-4026-b22a-dc12cc887b83")
-		)
-		(pin "2"
-			(uuid "d4085445-2e7e-475c-9dc6-971ea27d9e61")
-		)
-		(instances
-			(project "פרפר"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
-					(reference "SW47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_Shielded")
 		(at 85.09 64.77 270)
 		(unit 1)
@@ -9187,7 +9235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 90.17 64.77 0)
 			(effects
 				(font
@@ -9260,7 +9308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 57.15 26.67 0)
 			(effects
 				(font
@@ -9664,7 +9712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 57.15 45.72 0)
 			(effects
 				(font
@@ -9801,7 +9849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 106.68 26.67 0)
 			(effects
 				(font
@@ -9874,7 +9922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 123.19 45.72 0)
 			(effects
 				(font
@@ -10134,75 +10182,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 85.09 26.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "700c544c-1c43-4943-9b3c-c1e6485f24b2")
-		(property "Reference" "SW46"
-			(at 89.154 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 89.154 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "coquette_footprints:SMD4_SW_EVQP7J_PAN"
-			(at 90.17 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 85.09 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1586b306-fa73-452c-aa2a-e7921ed08eed")
-		)
-		(pin "2"
-			(uuid "85cdfdac-eaf4-4a2f-b748-2e6a67f23e75")
-		)
-		(instances
-			(project "פרפר"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
-					(reference "SW46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_Shielded")
 		(at 101.6 45.72 270)
 		(unit 1)
@@ -10230,7 +10209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 106.68 45.72 0)
 			(effects
 				(font
@@ -10370,7 +10349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 40.64 64.77 0)
 			(effects
 				(font
@@ -10443,7 +10422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 57.15 64.77 0)
 			(effects
 				(font
@@ -10821,35 +10800,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 68.58 26.67 270)
+		(lib_id "coquette_symbols:SW_rocker")
+		(at 52.07 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7d1e49c0-4155-49d6-a9a5-b67a62392106")
-		(property "Reference" "SW45"
-			(at 72.39 25.3999 90)
+		(uuid "7fc8d90f-9c38-4f64-8679-1f20f33706b2")
+		(property "Reference" "SW49"
+			(at 52.07 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 72.39 27.9399 90)
+		(property "Value" "SW_rocker"
+			(at 52.07 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SMD4_SW_EVQP7J_PAN"
-			(at 73.66 26.67 0)
+		(property "Footprint" "coquette_footprints:TMHU27"
+			(at 52.07 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10858,7 +10835,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 26.67 0)
+			(at 52.07 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10866,8 +10843,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 26.67 0)
+		(property "Description" "Momentary Switch, single pole double throw"
+			(at 52.07 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,15 +10853,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a84e12a-b4f6-4c85-a5ee-94d6e5270f48")
+			(uuid "9a5f91e4-40e7-4ba1-9396-f8f70dcd2431")
 		)
 		(pin "2"
-			(uuid "3bea1b15-dcd4-41d0-b93a-de50631b1378")
+			(uuid "b9c52512-ba98-4e99-8355-1a6aca7d6d92")
+		)
+		(pin "MP"
+			(uuid "0ec94e9b-5962-4dc9-a3f0-1c1b3f6e24b0")
+		)
+		(pin "3"
+			(uuid "aa0e1ca4-687e-40df-a070-2825bc965f57")
 		)
 		(instances
-			(project "פרפר"
+			(project ""
 				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
-					(reference "SW45")
+					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -10918,7 +10901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 123.19 26.67 0)
 			(effects
 				(font
@@ -11057,7 +11040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 106.68 102.87 0)
 			(effects
 				(font
@@ -11130,7 +11113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 73.66 140.97 0)
 			(effects
 				(font
@@ -11269,7 +11252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 90.17 45.72 0)
 			(effects
 				(font
@@ -11342,7 +11325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 106.68 121.92 0)
 			(effects
 				(font
@@ -11618,6 +11601,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 49.53 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6fb844e-99f9-455e-aa6e-833dc5279dbf")
+		(property "Reference" "#PWR0104"
+			(at 49.53 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4307c075-a6b1-4c53-a496-6ec06914906a")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_Shielded")
 		(at 35.56 102.87 270)
 		(unit 1)
@@ -11645,7 +11694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 40.64 102.87 0)
 			(effects
 				(font
@@ -11718,7 +11767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 123.19 140.97 0)
 			(effects
 				(font
@@ -11758,75 +11807,6 @@
 			(project "פרפר"
 				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
 					(reference "SW38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 85.09 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae2ef91c-23dc-45ed-a943-2c42c327e785")
-		(property "Reference" "SW48"
-			(at 88.9 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 88.9 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "coquette_footprints:SMD4_SW_EVQP7J_PAN"
-			(at 90.17 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 85.09 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00911933-0cd2-44fc-a426-318c7aedd69e")
-		)
-		(pin "2"
-			(uuid "27b3fffc-c114-4917-9c9c-afb4ec6a9675")
-		)
-		(instances
-			(project "פרפר"
-				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
-					(reference "SW48")
 					(unit 1)
 				)
 			)
@@ -12059,7 +12039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 73.66 102.87 0)
 			(effects
 				(font
@@ -12202,7 +12182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 90.17 83.82 0)
 			(effects
 				(font
@@ -12275,7 +12255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 57.15 102.87 0)
 			(effects
 				(font
@@ -12348,7 +12328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 57.15 160.02 0)
 			(effects
 				(font
@@ -12503,7 +12483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 123.19 121.92 0)
 			(effects
 				(font
@@ -12543,6 +12523,80 @@
 			(project "פרפר"
 				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
 					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "coquette_symbols:SW_rocker")
+		(at 101.6 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8b1cfbc-9ad9-404d-9834-720557b4f39c")
+		(property "Reference" "SW50"
+			(at 101.6 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_rocker"
+			(at 101.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:TMHU27"
+			(at 101.6 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, single pole double throw"
+			(at 101.6 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a5f91e4-40e7-4ba1-9396-f8f70dcd2432")
+		)
+		(pin "2"
+			(uuid "b9c52512-ba98-4e99-8355-1a6aca7d6d93")
+		)
+		(pin "MP"
+			(uuid "0ec94e9b-5962-4dc9-a3f0-1c1b3f6e24b1")
+		)
+		(pin "3"
+			(uuid "aa0e1ca4-687e-40df-a070-2825bc965f58")
+		)
+		(instances
+			(project ""
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/6c544eb8-a03d-4a1f-811f-1d11408e6b4f"
+					(reference "SW50")
 					(unit 1)
 				)
 			)
@@ -12723,7 +12777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 40.64 26.67 0)
 			(effects
 				(font
@@ -12866,7 +12920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 106.68 64.77 0)
 			(effects
 				(font
@@ -13375,7 +13429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 123.19 83.82 0)
 			(effects
 				(font
@@ -13996,7 +14050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 90.17 140.97 0)
 			(effects
 				(font
@@ -14135,7 +14189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 57.15 121.92 0)
 			(effects
 				(font
@@ -14339,7 +14393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "coquette_footprints:SW_Hotswap_Kailh_Choc_V1V2_Plated_modded"
+		(property "Footprint" "coquette_footprints:SW_Choc_V1_V2_hotswap"
 			(at 40.64 45.72 0)
 			(effects
 				(font

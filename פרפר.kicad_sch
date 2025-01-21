@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "coquette switch matrix (parpar)")
-		(date "2025-01-20")
+		(date "2025-01-21")
 		(rev "2.0")
 	)
 	(lib_symbols
@@ -6620,7 +6620,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "R220"
 			(at 280.67 117.348 90)
 			(effects
 				(font
@@ -7630,7 +7630,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "R220"
 			(at 280.67 146.558 90)
 			(effects
 				(font
@@ -8238,7 +8238,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "R220"
 			(at 250.19 146.558 90)
 			(effects
 				(font
@@ -8374,7 +8374,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8k*4"
+		(property "Value" "R390*4"
 			(at 229.87 116.8399 0)
 			(effects
 				(font
@@ -8592,7 +8592,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "R220"
 			(at 250.19 117.348 90)
 			(effects
 				(font
@@ -9405,7 +9405,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "R220"
 			(at 257.81 117.348 90)
 			(effects
 				(font
@@ -10081,7 +10081,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "R220"
 			(at 242.57 117.348 90)
 			(effects
 				(font
@@ -10350,7 +10350,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "R220"
 			(at 273.05 117.348 90)
 			(effects
 				(font
@@ -11598,7 +11598,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "R220"
 			(at 242.57 146.558 90)
 			(effects
 				(font
@@ -11733,7 +11733,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "R220"
 			(at 257.81 146.558 90)
 			(effects
 				(font
@@ -11803,7 +11803,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "R220"
 			(at 273.05 146.558 90)
 			(effects
 				(font
@@ -12003,7 +12003,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.8k*4"
+		(property "Value" "R390*4"
 			(at 229.87 146.0499 0)
 			(effects
 				(font
@@ -12613,7 +12613,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "R220"
 			(at 265.43 146.558 90)
 			(effects
 				(font
@@ -12815,7 +12815,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R470"
+		(property "Value" "R220"
 			(at 265.43 117.348 90)
 			(effects
 				(font
