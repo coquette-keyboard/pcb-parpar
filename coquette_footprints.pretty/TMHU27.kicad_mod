@@ -155,6 +155,8 @@
 		(size 1.9 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1388888889)
+		(solder_mask_margin 0.03)
+		(solder_paste_margin -0.05)
 		(uuid "3514464b-5730-4758-9dd0-406638d4a203")
 	)
 	(pad "2" smd roundrect
@@ -162,6 +164,8 @@
 		(size 1.9 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1388888889)
+		(solder_mask_margin 0.03)
+		(solder_paste_margin -0.05)
 		(uuid "5b84498a-d6ae-453f-99e9-d8e21913a27b")
 	)
 	(pad "3" smd roundrect
@@ -169,6 +173,8 @@
 		(size 1.9 1.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1388888889)
+		(solder_mask_margin 0.03)
+		(solder_paste_margin -0.05)
 		(uuid "7925e821-3939-44ec-b232-a8d5a2f34d7b")
 	)
 	(pad "MP" smd roundrect
@@ -176,6 +182,7 @@
 		(size 1.8 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1470588235)
+		(solder_paste_margin -0.05)
 		(uuid "7ceaad4d-59e9-4e33-8ce6-d1c772e9bce4")
 	)
 	(pad "MP" smd roundrect
@@ -183,6 +190,7 @@
 		(size 1.8 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1470588235)
+		(solder_paste_margin -0.05)
 		(uuid "f686234f-806d-48fe-a268-2dc1bc8b0300")
 	)
 	(model "${KIPRJMOD}/TMHU27.step"

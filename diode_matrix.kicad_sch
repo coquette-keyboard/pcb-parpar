@@ -1,0 +1,3521 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "17c75f5b-6e76-44de-8982-12b05ebc3bee")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Diode:BAT54CW"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.635 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAT54CW"
+				(at -6.35 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+				(at 1.905 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+				(at -2.032 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dual schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT54CW_0_1"
+				(polyline
+					(pts
+						(xy -3.175 -1.27) (xy -3.175 1.27) (xy -1.27 0) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 0.635 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.175 1.27) (xy 1.27 0) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT54CW_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 17.145 17.78)
+		(end 102.87 121.285)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 231bf722-b518-43f4-a999-62ec7c0ca1e8)
+	)
+	(text "diodes"
+		(exclude_from_sim no)
+		(at 20.066 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9f5edb6a-ab52-4e21-a4bb-0c20fda74e56")
+	)
+	(junction
+		(at 49.53 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dc1341c-97d3-4c11-aadd-69675afa15e8")
+	)
+	(junction
+		(at 49.53 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "166140b5-b6e8-4e8b-8e54-d3c07b578b3c")
+	)
+	(junction
+		(at 69.85 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c355606-c5d3-4239-9037-8870e12a7713")
+	)
+	(junction
+		(at 49.53 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24fd1eeb-43d9-4f03-8059-3433cf9d0e66")
+	)
+	(junction
+		(at 69.85 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36962b6a-3f80-4d1d-83ce-6639515d36cc")
+	)
+	(junction
+		(at 49.53 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d4e7982-5151-48bf-b31f-c8237e532d4a")
+	)
+	(junction
+		(at 69.85 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f97c172-3b66-44a7-9360-70df4b1d412b")
+	)
+	(junction
+		(at 69.85 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72f842b1-f506-43e0-8722-74178cd5981b")
+	)
+	(junction
+		(at 69.85 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fefdd55-031f-42ee-b5ac-2e6c609aef63")
+	)
+	(junction
+		(at 69.85 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc3afe47-92c3-4361-a4c7-4848769a7d5f")
+	)
+	(junction
+		(at 49.53 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7492fdf-4318-46ce-848b-0430cb22b268")
+	)
+	(junction
+		(at 49.53 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f088c91a-7a89-4487-932d-fca6c8a5879e")
+	)
+	(wire
+		(pts
+			(xy 69.85 67.31) (xy 91.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a72a7d6-8e53-47d3-a54f-908d40c514c1")
+	)
+	(wire
+		(pts
+			(xy 49.53 83.82) (xy 69.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299ac886-8424-474e-a2e2-d0d9d75a9b7e")
+	)
+	(wire
+		(pts
+			(xy 29.21 50.8) (xy 49.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e592309-b6ce-42aa-b8d8-24acbd230ff5")
+	)
+	(wire
+		(pts
+			(xy 29.21 116.84) (xy 49.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d01f61-2f2b-45be-8e76-da9778b68920")
+	)
+	(wire
+		(pts
+			(xy 69.85 100.33) (xy 91.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc80b0e-b930-4202-b1bf-be8b609413bd")
+	)
+	(wire
+		(pts
+			(xy 29.21 34.29) (xy 49.53 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8122cc1f-ec89-41a2-9ae0-c7ecbd4711fa")
+	)
+	(wire
+		(pts
+			(xy 69.85 50.8) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a106d977-c97e-4d32-b7a2-47c399effb21")
+	)
+	(wire
+		(pts
+			(xy 29.21 83.82) (xy 49.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ec8fc2-6faf-4bb0-a77b-bc91ddb65384")
+	)
+	(wire
+		(pts
+			(xy 49.53 34.29) (xy 69.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7295b3d-8351-4211-9837-9beef5387bc7")
+	)
+	(wire
+		(pts
+			(xy 69.85 116.84) (xy 91.44 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53331c9-7bc9-45ed-81fa-f6f4e3e6e2db")
+	)
+	(wire
+		(pts
+			(xy 49.53 100.33) (xy 69.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64c8692-8b09-4767-9dea-2bcbf66d991b")
+	)
+	(wire
+		(pts
+			(xy 29.21 67.31) (xy 49.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb34ce7b-f8be-4181-a1cc-7227fa600b0c")
+	)
+	(wire
+		(pts
+			(xy 29.21 100.33) (xy 49.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d148db78-f4dc-411f-819d-73e4beae4365")
+	)
+	(wire
+		(pts
+			(xy 49.53 50.8) (xy 69.85 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37120c5-c2c4-4f1c-b42f-b08b0c055e7e")
+	)
+	(wire
+		(pts
+			(xy 49.53 116.84) (xy 69.85 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de208ff6-b279-4854-9054-62cca541fa0c")
+	)
+	(wire
+		(pts
+			(xy 49.53 67.31) (xy 69.85 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0315b54-4273-4e08-901a-079bb3dacd85")
+	)
+	(wire
+		(pts
+			(xy 69.85 34.29) (xy 91.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71c604a-4c34-4503-83fb-d788fb8b90f4")
+	)
+	(wire
+		(pts
+			(xy 69.85 83.82) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eadc5232-2912-4ac5-af4d-5c00e20f4690")
+	)
+	(global_label "mtx_f4"
+		(shape input)
+		(at 77.47 111.76 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "002017fc-55ae-439f-b844-0b4b99316a55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 103.4809 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_b2"
+		(shape input)
+		(at 57.15 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "006bfbd0-ce46-45a1-aa2e-2c1a6bbf5aaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 37.4409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_b3"
+		(shape input)
+		(at 41.91 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "016c9882-7c43-4233-ae1b-b729f9d6570e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 37.4409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_c3"
+		(shape input)
+		(at 57.15 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "039d9d5c-cd58-4051-b0d2-4cb723bd40b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 53.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_e5"
+		(shape input)
+		(at 62.23 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b126e66-0b02-4721-801a-53a608ac11df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 86.9709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_a4"
+		(shape input)
+		(at 77.47 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "125b5497-6bd5-40af-bc88-4481640d71fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 20.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_b6"
+		(shape input)
+		(at 83.82 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a3f7112-fe04-4faf-b482-c8b9c46192ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 37.4409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_c"
+		(shape input)
+		(at 29.21 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bc9e811-f4d4-43bb-ab44-ff7d744b1ee1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.2533 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_e7"
+		(shape input)
+		(at 83.82 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f459279-d438-4d30-9a9b-ab62fc16dd98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 86.9709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_d3"
+		(shape input)
+		(at 41.91 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20311295-3e14-46ba-8684-bca052a99598")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 70.4609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_f6"
+		(shape input)
+		(at 99.06 111.76 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22a4d27d-9c87-4e3a-b253-52123b0af6c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 103.4809 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_a1"
+		(shape input)
+		(at 21.59 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "236eb019-7bda-468a-86ec-91669f62c50f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.59 20.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_e1"
+		(shape input)
+		(at 21.59 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a9c0a6f-b2bb-43a8-a7b2-0367f1840773")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.59 86.9709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_f"
+		(shape input)
+		(at 29.21 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "374c9aa6-43b1-4a0e-bda2-5145921cc621")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.2533 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_a5"
+		(shape input)
+		(at 62.23 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ad4a0e0-905f-4df1-8b6d-2d117e64538f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 20.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_d1"
+		(shape input)
+		(at 21.59 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ce9b3d7-d939-4f60-b88f-c06e05e76499")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.59 70.4609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_c4"
+		(shape input)
+		(at 77.47 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ec79a4d-b1c5-4f92-af1e-55ad0691affc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 53.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_d2"
+		(shape input)
+		(at 57.15 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4045f0fb-7e22-4428-8db6-f425d06bc88d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 70.4609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_a3"
+		(shape input)
+		(at 41.91 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40f41799-38bb-49d8-86e1-2830cdcc3eeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 20.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_a6"
+		(shape input)
+		(at 83.82 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b9cfbfc-6c79-4210-bacd-2046788bd066")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 20.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_e6"
+		(shape input)
+		(at 99.06 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e844585-437b-417e-8666-9158fc53a000")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 86.9709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_e3"
+		(shape input)
+		(at 57.15 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52087bf9-ffaa-4e98-98ba-49608722f627")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 86.9709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_d4"
+		(shape input)
+		(at 77.47 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5691711f-6480-4b38-b852-09cd8f90ed64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 70.4609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_b7"
+		(shape input)
+		(at 99.06 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cc58cb1-25df-4f1b-85b3-62e1f7d7322f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 37.4409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_c7"
+		(shape input)
+		(at 83.82 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "614c7268-85c7-4fd6-8082-902549c43709")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 53.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_e4"
+		(shape input)
+		(at 77.47 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "634bbb95-10ac-4cb6-b594-20e0ce84c1c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 86.9709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_c2"
+		(shape input)
+		(at 41.91 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67137bad-a7a0-45ea-b68d-193c143d83ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 53.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_e0"
+		(shape input)
+		(at 36.83 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "785f4078-d819-4f00-b25b-7c2b574f46c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 86.9709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_d0"
+		(shape input)
+		(at 36.83 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85d6a04f-e470-4206-982b-c0bd720e8611")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 70.4609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_b1"
+		(shape input)
+		(at 21.59 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e221860-9404-4a49-adf9-91bcbaa1cb67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.59 37.4409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_d5"
+		(shape input)
+		(at 62.23 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91d7bfed-436d-494d-99b2-313b8c542811")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 70.4609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_a2"
+		(shape input)
+		(at 57.15 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a139d6d4-0e36-4b33-acc4-def8d710c374")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 20.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_a0"
+		(shape input)
+		(at 36.83 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2ae1e67-f7f2-4ace-b88c-be1a3b30adb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 20.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_a7"
+		(shape input)
+		(at 99.06 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab755cf3-557d-4c91-9a9a-43311da3e892")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 20.9309 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_c5"
+		(shape input)
+		(at 62.23 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afa93955-6d10-411f-a4a9-079ad0f5e8ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 53.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_f7"
+		(shape input)
+		(at 83.82 111.76 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b646e2d8-3133-478f-aae2-a5dddc0785f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 103.4809 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_b4"
+		(shape input)
+		(at 77.47 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7fcf3d0-666b-4975-9f38-eaebb0f73337")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 37.4409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_f0"
+		(shape input)
+		(at 36.83 111.76 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6682f9c-9cdb-4196-adcb-21368696bff3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 103.4809 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_e"
+		(shape input)
+		(at 29.21 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca2fcec4-e07b-405d-aced-2d3248ac1258")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.2533 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_a"
+		(shape input)
+		(at 29.21 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cacba190-40d2-4b27-862a-6f6b142c92f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.2533 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_d7"
+		(shape input)
+		(at 83.82 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cad2eaeb-23c0-4bc0-93ef-8c943207e689")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 70.4609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_c1"
+		(shape input)
+		(at 21.59 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc27b167-17ab-4886-a488-40e1c22fc3a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.59 53.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_c0"
+		(shape input)
+		(at 36.83 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccbf0bb8-5653-490f-8620-174a643bfdfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 53.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_b5"
+		(shape input)
+		(at 62.23 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1beed59-f6f3-4fba-a4a7-c043d0c3d8f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 37.4409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_d6"
+		(shape input)
+		(at 99.06 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d290262b-c902-4c46-a3cd-6b3695cbc592")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 70.4609 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_c6"
+		(shape input)
+		(at 99.06 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3601bb6-8bec-4cc9-9475-6e04bdc4c899")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 53.9509 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_f1"
+		(shape input)
+		(at 21.59 111.76 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d76eab9e-99de-42c9-9d11-09c344cb9be2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.59 103.4809 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_e2"
+		(shape input)
+		(at 41.91 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8f24591-4c6a-45e3-93ca-ab3d03f082ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 86.9709 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_d"
+		(shape input)
+		(at 29.21 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da606c30-5fbd-462d-8ace-100efcdb1315")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.2533 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_b0"
+		(shape input)
+		(at 36.83 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eae9a4b9-17ec-4d5a-a290-49a12b427649")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 37.4409 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col_b"
+		(shape input)
+		(at 29.21 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f933f141-94b5-479d-8a65-8286e1266333")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.2533 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_f3"
+		(shape input)
+		(at 41.91 111.76 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa7219d5-3831-466c-88f1-b0211ce8038d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.91 103.4809 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_f5"
+		(shape input)
+		(at 62.23 111.76 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd917078-7ee9-4a22-966a-2a0cb35b088b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 103.4809 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "mtx_f2"
+		(shape input)
+		(at 57.15 111.76 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff62b0da-d995-4e36-a80f-e192a2f77855")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 103.4809 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 29.21 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b68ee78-2f2c-40fe-b878-54e1dd81a204")
+		(property "Reference" "D45"
+			(at 29.21 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 31.115 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 27.178 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 29.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c558b213-0702-4414-ac85-14018595282e")
+		)
+		(pin "3"
+			(uuid "03aef65b-8c93-4058-8a6b-0f02c650de68")
+		)
+		(pin "2"
+			(uuid "d5afc5c9-16af-472a-9471-df4f73b35cd9")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 29.21 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1590d918-1cbc-4b05-86fb-79934a1842b8")
+		(property "Reference" "D65"
+			(at 29.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 29.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 31.115 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 27.178 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 29.21 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92261db1-813f-4a13-b712-ef3871075aaf")
+		)
+		(pin "3"
+			(uuid "be83b968-16ed-4d2d-8c02-a379855666a5")
+		)
+		(pin "2"
+			(uuid "f660f3e5-f1b6-4fe3-9455-9088ba13926a")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 69.85 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39642450-038d-4df4-82c2-c1834ebb82ab")
+		(property "Reference" "D51"
+			(at 69.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 69.85 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 71.755 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 67.818 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed64beeb-7c2e-46d2-b857-91687ffe1e8d")
+		)
+		(pin "3"
+			(uuid "07928034-d2eb-4f76-95c0-0a5fbdd7ceb6")
+		)
+		(pin "2"
+			(uuid "2af8ce7d-418a-4724-9f45-7f8d857b4433")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 49.53 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c93f7d5-7aa3-4d64-adca-7030186226e6")
+		(property "Reference" "D54"
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 49.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 51.435 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 47.498 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 49.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d366a6cb-0687-4e64-8492-c8d3401119c1")
+		)
+		(pin "3"
+			(uuid "a16bd127-5cde-4fe0-90b9-90531444347e")
+		)
+		(pin "2"
+			(uuid "fe6c9bed-3bb1-4572-86c1-d0822f6f616f")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 91.44 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "488c736d-0aa9-48d8-b0a2-545e56cdaf2d")
+		(property "Reference" "D64"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 93.345 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 89.408 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b798b8aa-b067-4854-b6d6-d61a624ce0b4")
+		)
+		(pin "3"
+			(uuid "b2c50057-0c68-4cce-bafd-88205ed16f43")
+		)
+		(pin "2"
+			(uuid "75e98da9-5fd2-4d9d-a85d-f1e1f6259796")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 69.85 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49f319ef-86be-4967-8e0b-9c895afeac96")
+		(property "Reference" "D67"
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 69.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 71.755 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 67.818 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 69.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39f3c4eb-ce70-41ee-af37-8fb1b93790cd")
+		)
+		(pin "3"
+			(uuid "e8512dae-185c-49e9-b61c-c66fc78945f4")
+		)
+		(pin "2"
+			(uuid "c4a544b8-cd69-496c-98f7-d22f113f5454")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 69.85 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b111a9d-ca00-4d08-962b-6f20b064b3c1")
+		(property "Reference" "D59"
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 69.85 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 71.755 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 67.818 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8505a2aa-1ca4-4775-89b9-1be28a5b81bc")
+		)
+		(pin "3"
+			(uuid "75d5c600-f1d2-45b1-8679-6d3ecd2a7dda")
+		)
+		(pin "2"
+			(uuid "492892f1-c30a-4c10-ba78-9043eb2dda40")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 91.44 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dd6bb74-4152-49b3-bed5-5d5f49e2394f")
+		(property "Reference" "D68"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 91.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 93.345 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 89.408 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "815eef5f-afc6-4106-a598-778793f637be")
+		)
+		(pin "3"
+			(uuid "dc1a44f8-9833-48e5-8cd8-d54fab34b9b6")
+		)
+		(pin "2"
+			(uuid "0ceb41a0-ceac-4b89-970b-0dade34fbea8")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 29.21 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63bd5382-5896-401e-8cd1-ee7470444ebd")
+		(property "Reference" "D61"
+			(at 29.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 31.115 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 27.178 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c8b71c4-f376-4a2d-80ba-03cef5551419")
+		)
+		(pin "3"
+			(uuid "33977321-4143-4abf-be23-2907ada59a1c")
+		)
+		(pin "2"
+			(uuid "8a97941d-c4aa-4261-b99d-de890ebd7883")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 49.53 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6459ab60-d2b8-4e7a-8c22-ced0929421c2")
+		(property "Reference" "D66"
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 49.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 51.435 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 47.498 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 49.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14b90c24-8645-4fe8-a9e4-5d333cbd98ca")
+		)
+		(pin "3"
+			(uuid "80cc9abe-85b1-4b17-acfe-4fdd15396e94")
+		)
+		(pin "2"
+			(uuid "a05f3dcc-7bca-42a0-94a5-c4104d493ee2")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 29.21 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "653f1df7-96ab-4f9f-bf2c-cfe6a7b49590")
+		(property "Reference" "D57"
+			(at 29.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 31.115 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 27.178 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d5a6fd6-55b8-42df-8ae8-2ebcddf2ee72")
+		)
+		(pin "3"
+			(uuid "a32e36c8-6824-4d6b-8d97-4d1396f44f26")
+		)
+		(pin "2"
+			(uuid "ceedcf56-9344-4f05-a333-317601d6867f")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 91.44 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cde05a0-72fd-463a-a1e1-71afc878c0ad")
+		(property "Reference" "D60"
+			(at 91.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 93.345 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 89.408 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ccad8fb-012b-4767-9eb5-61d735f57c48")
+		)
+		(pin "3"
+			(uuid "c2e554f1-ad86-4ddb-87c5-5f32303e29c7")
+		)
+		(pin "2"
+			(uuid "096a447a-bee8-4ad6-b759-dc8344d8948b")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 91.44 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "770f1dff-a9a7-465e-ade2-10b9ba3d42eb")
+		(property "Reference" "D52"
+			(at 91.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 91.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 93.345 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 89.408 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8c3911f-33c6-4a5a-9a67-781d9d96ad77")
+		)
+		(pin "3"
+			(uuid "6f47d474-97ae-46f5-ab88-3b4a4bdf000f")
+		)
+		(pin "2"
+			(uuid "5a3ac74c-da70-4b85-8442-3b11120e47eb")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 91.44 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cef1dd6-3b20-4684-bb12-06da3206c30d")
+		(property "Reference" "D56"
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 93.345 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 89.408 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 91.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d2a456d-de83-4a9a-b0f5-61ac09997587")
+		)
+		(pin "3"
+			(uuid "22cf6170-0475-48ea-9870-17359065c55f")
+		)
+		(pin "2"
+			(uuid "eea5f96b-a0a4-45e7-81d9-d9aeea52fde9")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 29.21 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82072a04-39be-41c0-9c1f-49749ef97c13")
+		(property "Reference" "D49"
+			(at 29.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 29.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 31.115 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 27.178 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 29.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c80475e-8e0f-48a8-a8f9-308f333eb4da")
+		)
+		(pin "3"
+			(uuid "4bd39482-c73d-42e2-bb4c-2d13870fcd79")
+		)
+		(pin "2"
+			(uuid "129a729d-bc33-433d-865a-bfcb95b87f9b")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 49.53 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c636293-b565-44f4-9f76-5adc15d8405e")
+		(property "Reference" "D62"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 51.435 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 47.498 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 49.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16d605fa-38cc-4b99-b8a1-a2e76ca7959a")
+		)
+		(pin "3"
+			(uuid "77212d21-1760-47a7-873d-3b5155265641")
+		)
+		(pin "2"
+			(uuid "3cedee24-108f-4e1e-a770-e292d67f3129")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 49.53 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a095a7d1-9517-4bc5-b7f3-4d08a3737b20")
+		(property "Reference" "D46"
+			(at 49.53 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 51.435 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 47.498 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 49.53 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c558b213-0702-4414-ac85-14018595282f")
+		)
+		(pin "3"
+			(uuid "03aef65b-8c93-4058-8a6b-0f02c650de69")
+		)
+		(pin "2"
+			(uuid "d5afc5c9-16af-472a-9471-df4f73b35cda")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 29.21 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8f96484-4586-42e4-809a-9c3094c1fa51")
+		(property "Reference" "D53"
+			(at 29.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 31.115 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 27.178 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 29.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeae32db-4368-45fd-85b6-9c5acedbe821")
+		)
+		(pin "3"
+			(uuid "c7a19342-d64f-4a9b-b762-9d6cd6923e05")
+		)
+		(pin "2"
+			(uuid "e3e6a617-ba94-4e19-9497-ced302d06dc4")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 69.85 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2e2779a-6b70-4161-a0d4-0a2dbc6bb12e")
+		(property "Reference" "D63"
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 69.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 71.755 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 67.818 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a59b7e1-7836-43c4-8be8-e0603a44f53e")
+		)
+		(pin "3"
+			(uuid "b453be43-6df4-4a01-829e-1184a0a4b332")
+		)
+		(pin "2"
+			(uuid "d693b01b-7661-415b-bc70-5ebfd4c647ff")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 91.44 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d44f58bb-8ac9-4521-ad1d-04434dfae10c")
+		(property "Reference" "D48"
+			(at 91.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 91.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 93.345 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 89.408 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 91.44 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c558b213-0702-4414-ac85-140185952830")
+		)
+		(pin "3"
+			(uuid "03aef65b-8c93-4058-8a6b-0f02c650de6a")
+		)
+		(pin "2"
+			(uuid "d5afc5c9-16af-472a-9471-df4f73b35cdb")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 49.53 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d837f3eb-898d-4eb1-9713-2aa4a8694d29")
+		(property "Reference" "D50"
+			(at 49.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 51.435 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 47.498 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 49.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "056fa5f8-bb6f-41a5-b63f-bc44d802fa91")
+		)
+		(pin "3"
+			(uuid "49f38513-9784-4b5c-9430-6ee80e5a5242")
+		)
+		(pin "2"
+			(uuid "fb99889b-397b-475b-9feb-20521fb4d1dc")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 69.85 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4464011-0820-4e04-8f17-a838a6eab300")
+		(property "Reference" "D55"
+			(at 69.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 69.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 71.755 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 67.818 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7fbb5ee-80c4-4a25-9581-2a5fd2354639")
+		)
+		(pin "3"
+			(uuid "323a33e7-b25f-4fc4-83d8-68c8f9eb415a")
+		)
+		(pin "2"
+			(uuid "4acb00d6-80fb-4ca9-9351-4a8d28ce6acf")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 49.53 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8c14151-0270-44fc-9b84-56b922cc295e")
+		(property "Reference" "D58"
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 49.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 51.435 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 47.498 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 49.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6289a577-dd13-46f1-a933-101038ddf92c")
+		)
+		(pin "3"
+			(uuid "70d13e0d-90fe-469d-8df2-842b07e33c81")
+		)
+		(pin "2"
+			(uuid "62ebbd2e-e335-4a2c-a588-33ac9b1fdb20")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54CW")
+		(at 69.85 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec28dc2d-a203-49fd-b44a-2c10c7f7894f")
+		(property "Reference" "D47"
+			(at 69.85 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54CW"
+			(at 69.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "coquette_footprints:SOT-323_SC-70-coquette"
+			(at 71.755 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(at 67.818 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual schottky barrier diode, common cathode, SOT-323"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c558b213-0702-4414-ac85-140185952831")
+		)
+		(pin "3"
+			(uuid "03aef65b-8c93-4058-8a6b-0f02c650de6b")
+		)
+		(pin "2"
+			(uuid "d5afc5c9-16af-472a-9471-df4f73b35cdc")
+		)
+		(instances
+			(project "פרפר"
+				(path "/88abd3ac-3560-486a-811e-4281250949a6/5f1be17e-587b-4363-a340-2028ade4dfd1/7dfcd0f6-fe05-4d18-b5b9-f25efcf513e1"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
